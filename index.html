@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Quiz App</title> <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <div class="quizApp">
+        <div class="img"> <img src="image/Question.svg" alt=""></div>
+   <div class="text"><h3>Quiz app With fixed time</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eveniet </p>
+    <h3>Play Quiz- Sharp your brain</h3><p>Lorem, ipsum dolor sit amet consectetur </p></div> <div class="myButton"> <button> Start Quiz</button></div> </div> 
+
+
+
+<div class="rulesBox">
+    <div class="rulesTitle">Some of Rules</div> <div class="rulesList"><ol>
+        <li>You will have only <span>15seconds</span> for each qustion.</li>
+        <li>Once you select your answer, it can't be undone.</li>
+        <li>You can't select any other option once time goes off.</li>
+        <li>You can't exit from the Quiz while you're playing.</li>
+        <li>You'll get points on the basis of your corret answer.</li>
+    </ol></div>
+    <div class="buttons"><button class="one">Exit</button><button class="two">Next</button></div>
+</div>
+
+
+   <div class="quizRound"> <div class="header">
+    <div class="title"> Start Exam </div> <div class="time"> <div class="timeLeft"> Time off </div> <div class="seconds"> 00 </div></div> <div class="question"> </div><div class="timeLine"></div></div>
+ <div class="section">
+   <div class="question"> 
+      <span> </span>
+   </div>
+ </div> <div class="option"> <ul> 
+
+ </ul> </div>
+
+ <div class="footer">
+    <div class="leftQuestion"> <span> </span> </div> <div class="nextButton">
+        <button id="nextQ"> Next Q</button>
+    </div>
+ </div>
+   </div>
+   <div class="resultBox">
+    <div class="resultImage">
+        <img src="image/winner.svg" alt="winner">
+    </div>
+<div class="finalText">You Have completed exam.</div>
+<div class="score"><span class="finalAch"></span><p class="userp"></p><span>out of </span><p class="quizp"></p></div>
+<div class="finalButton"><button class="repeat">Repeat</button><button class="quit">Quit</button></div>   </div>
+
+
+<script src="app.js"></script>
+<script src="q.js"></script>
+</body>
+</html>
